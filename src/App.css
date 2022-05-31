@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+.container {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 99%;
+  height: 100%;
+}
+.commet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.marcas {
+  width: auto;
+  height: 65px;
+
+  margin: 10px 55px 40px 55px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* section video */
+.section-video {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  perspective: 1000px;
+  height: 440px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.bg-div-ama {
+  background-color: var(--amarillo);
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  width: 27%;
+  max-width: 497px;
+  position: absolute;
+  height: 100%;
+}
+.main-container {
+  position: relative;
+  width: 100%;
+  max-width: 1168px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0;
+  padding-left: 0;
+  align-self: center;
+}
+.pequeImg {
+  border-radius: 12px;
+  display: inline-block;
+}
+.flex2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.medium-botton {
+  margin-bottom: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.video-container {
+  position: relative;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.play-icon-a {
+  position: absolute;
+  max-width: 100%;
+  display: inline-block;
+  transition: 400ms;
+}
+.play-icon {
+  display: flex;
+  width: 84px;
+  height: 84px;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  justify-content: center;
+}
+.play-icon-a:hover {
+  transform: scale(1.2);
+}
+
+.rojo {
+  background-color: rgb(248, 39, 39);
+  color: #fff;
 }
